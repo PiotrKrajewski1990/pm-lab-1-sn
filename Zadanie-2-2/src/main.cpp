@@ -1,5 +1,7 @@
 #include <Arduino.h>
 
+#define LED_RED 10
+
 #define M_KROPKA_T 200
 #define M_KRESKA_T 3 * M_KROPKA_T
 #define M_PAUZA_T 3 * M_KROPKA_T
