@@ -9,7 +9,7 @@
 
 void setup () 
 {
-    pinMode(LED_RED, OUTPUT);
+   pinMode(LED_RED, OUTPUT);
     
 }
 

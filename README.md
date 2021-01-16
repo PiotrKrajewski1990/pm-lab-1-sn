@@ -33,7 +33,7 @@ Odpowiedź:  Naciśnięcie przycisku na sygnalizacji świetlnej dla pieszych pow
 
 ## Zadanie 2-3-2:
 Pytanie:    *Czy możliwe jest sterowanie stanem niskim (LOW) diod LED?*  
-Odpowiedź:  ...
+Odpowiedź:  Piny mikrokontrolera maja stan nieustalony. Konfiguracja Pinów umożliwia nam prace na odpowiednim stanie.
 
 # Zadania rozszerzajace
 ## Zadanie 3-1:
