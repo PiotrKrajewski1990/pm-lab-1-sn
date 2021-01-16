@@ -6,9 +6,9 @@ Wersja: v1.0
 Data:   03.04.2020 r.  
 
 # Informacje o studencie
-Imię i nazwisko studenta:   Imię Nazwisko  
-Numer albumu:               00000  
-Grupa studencka:            WELE18X1N1
+Imię i nazwisko studenta:   Piotr Krajewski  
+Numer albumu:               73106  
+Grupa studencka:            WEL18DE1N1
 
 # Pytania do zadań z instrukcji
 ## Zadanie 2-2-1a:
