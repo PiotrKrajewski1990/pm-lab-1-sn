@@ -1,5 +1,9 @@
 #include <Arduino.h>
 #define LED_RED 10
+#define M_KROPKA_T 200
+#define M_KRESKA_T 3  * M_KROPKA_T
+#define M_PAUZA_T 3 * M_KROPKA_T
+#define M_SPACJA_T 7 * M_KROPKA_T
 
 void setup() {
   // put your setup code here, to run once:
@@ -9,8 +13,25 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  digitalWrite(LED_RED, HIGH);
-  delay(500);
-  digitalWrite(LED_RED, LOW);
-  delay(500);
+   for (int i = 0; i<3; i++)
+  {
+     digitalWrite(LED_RED, HIGH);
+     delay(M_KROPKA_T);
+     digitalWrite(LED_RED, LOW);
+     delay(M_PAUZA_T);
+  }
+  for (int i = 0; i<3; i++)
+  {
+     digitalWrite(LED_RED, HIGH);
+     delay(M_KRESKA_T);
+     digitalWrite(LED_RED, LOW);
+     delay(M_PAUZA_T);
+  }
+   for (int i = 0; i<3; i++)
+  {
+     digitalWrite(LED_RED, HIGH);
+     delay(M_KROPKA_T);
+     digitalWrite(LED_RED, LOW);
+     delay(M_PAUZA_T);
+  }
 }
